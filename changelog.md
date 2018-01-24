@@ -12,17 +12,18 @@ Release Date: Jul 26, 2027
 
 -   controllers
 
+    - Added About and Gallery
     
+-   views
+
+    - Added about, gallery, and welcome
+
 ## Updated Components
 
 -   controllers
 
+    - Updated Welcome
 
 -   models
 
-
 -   views
-
-
-
-
