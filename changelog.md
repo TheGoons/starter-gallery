@@ -1,10 +1,10 @@
 #Change Log
 
-Team membership:  AB (Captain) & CD (Mate)  
-Team conventions: Allman notation, markdown for changelog  
-Changelog format: [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) 
+Team membership:  Kerry Regan (Captain) & Hamish Brindle (Mate)  
+Team conventions: Allman notation, markdown for changelog, Most recent changes added to bottom  
+Changelog format: [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
-## *Version x.x*
+## *Version 1.0*
 
 Release Date: Jul 26, 2027
 
@@ -12,22 +12,40 @@ Release Date: Jul 26, 2027
 
 -   controllers
 
-    -   serbian (AB)
-    
+    - Added About and Gallery
+
+-   views
+
+    - Added about, gallery, and welcome
+
 ## Updated Components
 
 -   controllers
 
-    -   german (CD)
-    -   hindi (CD)
+    - Updated Welcome
 
 -   models
 
-    -   italian (AB)
+-   views
+
+## *Version 1.1*
+
+Release Date: Jul 26, 2027
+
+## New Components
+
+-   controllers
 
 -   views
 
-    -   slovenian (AB)
-    -   swedish
 
+## Updated Components
 
+-   controllers
+
+    - Updated all Controllers to use $this->data['pagebody'] = 'XXX' in index()
+
+-   models
+
+-   views
+    - Updated all views to be based off of Template.php
