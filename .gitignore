@@ -1,4 +1,5 @@
 */config/development
+*/config/database.php
 */logs/log-*.php
 !*/logs/index.html
 */cache/*
@@ -74,3 +75,15 @@ fabric.properties
 
 
 # End of https://www.gitignore.io/api/phpstorm
+.idea/inspectionProfiles/
+
+user_guide_src/build/*
+user_guide_src/cilexer/build/*
+user_guide_src/cilexer/dist/*
+user_guide_src/cilexer/pycilexer.egg-info/*
+
+#codeigniter 3
+application/logs/*
+!application/logs/index.html
+!application/logs/.htaccess
+/vendor/
